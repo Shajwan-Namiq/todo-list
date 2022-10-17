@@ -1,0 +1,28 @@
+ .alert {
+     display: flex;
+     align-items: center;
+     font-size: 0.7rem;
+     text-transform: capitalize;
+     padding: 5px;
+     border-radius: 5px;
+ }
+ 
+ .alert-danger {
+     color: #721c24;
+     background: #f8d7da;
+ }
+ 
+ .alert-success {
+     color: #155724;
+     background: #d4edda;
+ }
+ 
+ .alert-success::after {
+     content: '\f00c';
+     font: var(--fa-font-solid);
+ }
+ 
+ .alert-danger::after {
+     content: '\f057';
+     font: var(--fa-font-solid);
+ }
