@@ -8,13 +8,13 @@ const List = ({ items, removeItem, editItem }) => {
         const { id, title } = item;
         return (
           <div key={id} className=" flex justify-center">
-            <div class="w-full">
-              <div class=" pb-5">
-                <div class="bg-[#e5e5e5] px-2 rounded-sm  flex justify-between items-center  ">
-                  <span class="text-sm font-bold ">
+            <div className="w-full">
+              <div className=" pb-5">
+                <div className="bg-[#e5e5e5] px-2 rounded-sm  flex justify-between items-center  ">
+                  <span className="text-sm font-bold ">
                     <p>{title}</p>
                   </span>
-                  <p class=" py-2.5 text-center   ">
+                  <p className=" py-2.5 text-center   ">
                     <button
                       type="button"
                       className="edit-btn"
